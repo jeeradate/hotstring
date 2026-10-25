@@ -1,0 +1,22 @@
+{
+    "hw": {
+        "type": "message",
+        "description": "Hello World",
+        "content": "Hello World! สวัสดีครับ"
+    },
+    "calc": {
+        "type": "run",
+        "description": "Calculator",
+        "content": "calc.exe"
+    },
+    "np": {
+        "type": "run",
+        "description": "Notepad++",
+        "content": "start notepad++.exe"
+    },
+    "codehs": {
+        "type": "run",
+        "description": "run vs code for hotstring2",
+        "content": "start code d:/hotstring"
+    }
+}

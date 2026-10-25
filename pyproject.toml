@@ -1,0 +1,28 @@
+[project]
+name = "hotstring2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jeeradate", email = "jeeradate@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "nicegui>=3.18.0",
+    "pynput>=1.8.2",
+    "pyperclip>=1.11.0",
+    "pywebview>=6.2.1",
+]
+
+[project.scripts]
+hotstring2 = "hotstring2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "types-pynput>=1.8.1.20260712",
+    "types-pyperclip>=1.11.0.20260508",
+]
